@@ -20,11 +20,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="39dp"
         android:background="#3F51B5"
-        android:text="Ask"
+        android:text="@string/btnAsk"
         android:textColor="#ffffff" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt_eDayDecision"
         android:layout_width="310dp"
         android:layout_height="30dp"
         android:layout_alignParentTop="true"
@@ -33,7 +33,7 @@
         android:layout_marginTop="36dp"
         android:background="@color/colorPrimaryDark"
         android:lineSpacingExtra="8sp"
-        android:text="Make everyday decisions easier!"
+        android:text="@string/lblEdayDecision"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="20sp"
@@ -43,9 +43,10 @@
         android:id="@+id/img_eightBall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/txt_eDayDecision"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
+        android:contentDescription="@string/imgdesc_Magic8Ball"
         android:src="@drawable/ball1" />
 
 
